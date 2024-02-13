@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+
+}
+#main{
+    display: flex;
+    padding: 90px 0;
+    margin: 0 130px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Slider-left */
+#slider-left{
+    width: 500px;
+}
+#slider-left .icfb{
+    height: 50px;
+    padding: 8px 0 16px;
+}
+#slider-left .icfb img{
+
+}
+#slider-left .title{
+    font-size: 20px;
+    padding: 0px 17px;
+}
+
+#slider-left .text{
+    font-size: 15px;
+    margin: 0 0 12px;
+    padding: 0 0 12px;
+}
+
+#slider-left .text p{
+    padding: 0 17px;
+}
+
+#slider-left .avatar a{
+    padding: 0 29px;
+}
+.all-avatar{
+    
+}
+
+.avatar{
+    display: inline-block;
+    width: 160px;
+    height: 200px;
+}
+
+.avatar a{
+    text-align: center;
+    color: blue;
+}
+/* slider-right */
+#slider-right{
+}
+#slider-right .slide-right{
+    padding: 10px 0 24px 0;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1),
+                0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: 40px;
+    padding: 20px 0 28px;
+    width: 400px;
+}
+.slide-right input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    height: 22px;
+    line-height: 6px;
+}
+
+.facebook , .password{
+    padding: 6px 0;
+}
+
+.slide-right button#log-in{
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.slide-right button#log-in::before{
+    content: '';
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+}
+.slide-right .button2{
+    display: block;
+    margin-top: 16px;
+    color: blue;
+}
+.slide-right .button3{
+    display: block;
+    margin: 3px 0;
+}
+
+.slide-right .button3 button{
+    padding: 7px 16px;
+    background-color: green;
+    color: white;
+}
+.footer-right{
+    margin-top: 28px;
+}
+
+a.create{
+    color: green;
+}
